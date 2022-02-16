@@ -4,7 +4,7 @@ pipeline {
         cron('H/1 * * * 1-5')
     }
     tools {
-        maven 'Maven'
+        maven 'Maven3'
         jdk 'java8'
       
     }
